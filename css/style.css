@@ -482,7 +482,7 @@ justify-content: center;
 
 }
 
-.thumb-clients{
+.clients-list-link{
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     width: 170px;
@@ -491,26 +491,22 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     background-color: transparent;
+    color:#AFB1B8;
 }
 
 /* ////// ХОВЕР  */
 
-.clients-list-link:hover {
-  fill:var(--accent-color)
-
-
+.clients-list-link:hover,
+.clients-list-link:focus{
+  color:var(--accent-color);
+  border-color: var(--accent-color);
 }
+
+
 .clients-list-icon{
-  fill:#AFB1B8;
+  fill:currentColor;
+ 
 }
-
-.clients-list-icon:hover,
-.clients-list-icon:focus{
-fill:var(--accent-color);
-}
-
-
-
 
 
 
